@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Startup Company</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow: auto;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    section {
+        padding: 40px 0;
+    }
+
+    section:nth-child(even) {
+        background-color: #f8f8f8;
+    }
+
+    section:nth-child(odd) {
+        background-color: #fff;
+    }
+
+    section h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    section p {
+        margin-bottom: 20px;
+    }
+
+    form input,form textarea {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form button[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Your Startup Company</h1>
+    </div>
+  </header>
+  <section>
+    <div class="container">
+      <h2>Welcome to Your Startup</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies aliquam molestie. Nulla ac faucibus urna. Curabitur et nisi nec velit bibendum finibus. Quisque auctor magna ac mauris venenatis, vel pretium erat cursus.</p>
+      <p>Nullam eu risus at nisl tempor vestibulum a vitae elit. Sed lacinia purus a ligula scelerisque fringilla. Integer eu egestas orci. Phasellus in nisl mi. Nullam sed fringilla nisi.</p>
+      <a href="#contact" class="cta-button">Get in touch</a>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Have a question or want to learn more about our services? Send us a message below.</p>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="cta-button">Send Message</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
